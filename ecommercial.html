@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Buy here</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		body
+		{
+			margin: 0;
+			padding: 0;
+			background-image: url("186225.jpg");
+			font-family: sans-serif;
+
+		}
+		.product
+		{
+			position: absolute;
+			top: 57%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			width: 500px;
+			height: 600px;
+			background-image: url("logo.jpg");
+			box-shadow: 0 20px 40px rgba(0,0,0,.2);
+			border-radius: 5px; 
+			overflow: hidden;
+			box-shadow: 0 0 100px 0 yellow;
+		}
+		.product .imgbox
+		{
+			height: 700px;
+			box-sizing: border-box;
+		}
+		.product .imgbox img
+		{
+			display: block;
+			width: 80%;
+			margin: 10px auto 0;
+		}
+		.specifice
+		{
+			position: absolute;
+			width: 100%;
+			bottom: -140px;
+			background: blue;
+			padding: 10px;
+			box-sizing: border-box;
+			transition: 1s;
+		}
+		.product:hover .specifice
+		{
+			bottom: 0;
+		}
+		.specifice h2
+		{
+			margin: 0;
+			padding: 0;
+			font-size: 20px;
+			width: 100%;
+		}
+		.specifice h2 span
+		{
+			font-size: 15px;
+			color: #ccc;
+			font-weight: normal;
+		}
+		.specifice .price
+		{
+			position: absolute;
+			top: 12px;
+			right: 25px;
+			font-weight: bold;
+			color: #000;
+			font-size: 30px;
+		}
+		label
+		{
+			display: block;
+			margin-top: 5px;
+			font-weight: bold;
+			font-size: 15px;
+		}
+		ul
+		{
+			display: flex;
+			margin: 0;
+			padding: 0;
+		}
+		ul li
+		{
+			list-style: none;
+			margin: 5px 5px 0;
+			font-size: 15px;
+			font-weight: normal;
+			color: #ccc;
+		}
+		ul li:first-child
+		{
+			margin-left: 0;
+		}
+		ul.colors li 
+		{
+			width: 15px;
+			height: 15px;
+		}
+		ul.colors li:nth-child(1)
+		{
+			background: #00f;
+		}
+		ul.colors li:nth-child(2)
+		{
+			background: #f00;
+		}
+		ul.colors li:nth-child(3)
+		{
+			background: #0ff;
+		}
+		ul.colors li:nth-child(4)
+		{
+			background: #ff0;
+		}
+		ul.colors li:nth-child(5)
+		{
+			background: #f0f;
+		}
+		a
+		{
+			display: block;
+			padding: 5px;
+			color: #fff;
+			margin: 10px; 0 0;
+			background: #45b90e;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 5px;
+			transition: .02s;
+			cursor: pointer;
+		}
+		a:hover
+		{
+			background: #5acef4;
+		}
+
+		.social-icons .fa {
+            padding: 15px;
+            font-size: 30px;
+            width: 30px;
+            text-decoration: none;
+            margin: 2px 2px;
+            border-radius: 50%;
+            margin-left: 650px;
+         }
+
+         .social-icons .fa:hover 
+         {
+            opacity: 0.8;
+            background-color: green;
+         }
+
+         .social-icons .fa-home 
+         {
+            color: white;
+            box-shadow: 2 2 100px 2 black;
+         }
+	</style>
+</head>
+<body>
+	<div class="social-icons">
+  <a href="index.html" class="fa fa-home"></a>
+    </div>
+	<div class="product">
+		<div class="imgbox">
+			<img src="chickens_LBW.jpg">
+		</div>
+		<div class="specifice">
+			<h2>Price for per<br><span>CHICKEN</span></h2>
+			<div class="price"><$6.6></div>
+			<label>Size</label>
+		    <ul>
+			    <li>2 Kg</li>
+		    </ul>
+		    <label>Colors</label>
+		    <ul class="colors">
+			    <li></li>
+			    <li></li>
+			    <li></li>
+			    <li></li>
+			    <li></li>
+		    </ul>
+		    <a href="#">Buy It Now</a>
+		</div>
+	</div>
+</body>
+</html>

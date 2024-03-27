@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Images</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		
+		body
+		{
+			margin-top: 0;
+			padding: 0;
+			background: #262626;
+			font-family: sans-serif;
+			background-image: url("186225.jpg");
+		}
+		
+		.container
+		{
+			width: 1280px;
+			margin: 70px auto -10;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+
+		.container .box
+		{
+			position: relative;
+			width: 300px;
+			height: 300px;
+			background: #fffcc234;
+			margin: 10px;
+			box-sizing: border-box;
+			display: inline-block;
+		}
+
+		.container .box .imgBox
+		{
+			position: relative;
+			overflow: hidden;
+		}
+
+		.container .box .imgBox img
+		{
+			max-width: 100%;
+			transition: transform 1s;
+		}
+
+		.container .box:hover .imgBox img
+		{
+			transform: scale(2.1);
+		}
+
+		.container .box .details
+		{
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			bottom: 10px;
+			right: 10px;
+			background: rgba(0,0,0,.7);
+			transform: scaleX(0);
+			transition: transform 1s;
+		}
+
+		.container .box:hover .details
+		{
+			transform: scaleY(1);
+		}
+		
+		.container .box .details .content
+		{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			text-align: center;
+			padding: 15px;
+			color: white;
+		}
+
+		.container .box .details .content h2
+		{
+			margin: 0;
+			padding: 0;
+			font-size: 20px;
+			color: yellow;
+		}
+
+		.container .box .details .content p
+		{
+			margin: 10px 0 0;
+			padding: 0; 
+		}
+
+		.social-icons .fa {
+            padding: 15px;
+            font-size: 30px;
+            width: 30px;
+            text-decoration: none;
+            margin: 2px 2px;
+            border-radius: 50%;
+         }
+
+         .social-icons .fa:hover 
+         {
+            opacity: 0.7;
+         }
+
+         .social-icons .fa-home 
+         {
+            background: blue;
+            color: white;
+            box-shadow: 0 0 100px 0 cyan;
+         }
+
+         .rounded
+        {
+	        width: 300px;
+	        height: 100px;
+	        margin: auto;
+
+        }
+
+        .rounded img
+        {
+	        border-radius: 50%;
+        }
+
+        .footer
+        {
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-image: url("images.jpg");
+            color: white;
+            text-align: center;
+         
+        }
+
+	</style>
+</head>
+<body>
+	 <div class="social-icons">
+	<a href="index.html" class="fa fa-home"></a>
+    </div>
+	<div class="container">
+		<div class="box">
+			<div class="imgBox">
+				<img src="00 09 2013 179.jpg">
+			</div>
+			<div class="details">
+				<div class="content">
+				<h2>Type.</h2>
+				<p><a href="click.html"><font color="white">Click to see more about this chickens.</font></a></p>
+			</div>
+			</div>
+		</div>
+		<div class="box"><div class="imgBox">
+				<img src="poultry-small-chicken-farm-coronavirus-covid-19-may-2020-min-1.jpg">
+			</div>
+			<div class="details">
+				<div class="content">
+				<h2>Type</h2>
+				<p><a href="#"><font color="white">Click to see more about this chickens.</font></a></p>
+				<p><a href="ecommercial.html"><font color="white">PRESS TO BUY.</a></font></a></p>
+			</div>
+			</div></div>
+		<div class="box"><div class="imgBox">
+				<img src="2017_04-24_FSNY_Gertrude_hen_DSC_2746_CREDIT_Farm_Sanctuary-scaled.webp">
+			</div>
+			<div class="details">
+				<div class="content">
+				<h2>Type</h2>
+				<p><a href="#"><font color="white">Click to see more about this chickens.</font></a></p>
+			</div>
+			</div></div>
+		<div class="box"><div class="imgBox">
+				<img src="1 (1).jpg">
+			</div>
+			<div class="details">
+				<div class="content">
+				<h2>Type</h2>
+				<p><a href="#"><font color="white">Click to see more about this chickens.</font></a></p>
+			</div>
+			</div></div>
+		<div class="box"><div class="imgBox">
+				<img src="eggs-2.jpg">
+			</div>
+			<div class="details">
+				<div class="content">
+				<h2>Type</h2>
+				<p><a href="#"><font color="white">Click to see more about this chickens.</font></a></p>
+			</div>
+			</div></div>
+		<div class="box"><div class="imgBox">
+				<img src="whole-chicken-with-skin.jpg">
+			</div>
+			<div class="details">
+				<div class="content">
+				<h2>We take care it for you.</h2>
+				<p>We derivering your commands.</p>
+			</div>
+			</div></div>
+		<div class="box"><div class="imgBox">
+				<img src="product-500x500.jpeg">
+			</div>
+			<div class="details">
+				<div class="content">
+				<h2>Type</h2>
+				<p><a href="#"><font color="white">See about this Eggs.</font></a></p>
+			</div>
+			</div></div>
+		<div class="box"><div class="imgBox">
+				<img src="Sweet-and-smoky-Mexican-chicken-I-Ottolenghi-recipes-I-Chicken-meets-chocolate-i-736x640.jpg">
+			</div>
+			<div class="details">
+				<div class="content">
+				<h2>Meats.</h2>
+				<p>Special meats meats, <a href="read"><font color="white">read more</font></a></p>
+				<p><a href="#"><font color="white">PRESS TO BUY.</a></font></a></p>
+			</div>
+			</div></div>
+
+			<div class="rounded">
+				<div class="footer">
+				<p>Developer</p>
+				<p>MUHIRWA <font color="black"><b>Sa</b></font>muel</p>
+				<p><a href="#">Read <font color="black">about h</font>im</a></p>
+  	<img src="IMG_20190726_230744_1.jpg" width="200px" height="150px">
+  </div>
+</div>
+
+			
+
+</body>
+</html>
